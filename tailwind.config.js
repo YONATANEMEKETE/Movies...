@@ -17,6 +17,12 @@ export default {
       },
     },
 
+    breakpoints: {
+      md: '830px',
+      lg: '900px',
+      xl: '1100px',
+    },
+
     extend: {
       fontFamily: {
         header: ['var(--header)'],
@@ -26,6 +32,7 @@ export default {
       colors: {
         // my custom colors
         myaccent: 'var(--myaccent)',
+        myaccentshade: 'var(--myaccentshade)',
         myprimary: 'var(--myprimary)',
         mysecondary: 'var(--mysecondary)',
         mymuted: 'var(--mymuted)',

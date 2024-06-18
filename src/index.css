@@ -38,8 +38,9 @@
 
     /*my custom CSS Variables */
     --myaccent: #ff0000;
+    --myaccentshade: #b00000;
     --myprimary: #fff4ee;
-    --mysecondary: #ba8475;
+    --mysecondary: #ff889d;
     --mymuted: #2f4858; /* for cards */
 
     /* fonts custome */
