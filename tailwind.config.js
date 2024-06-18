@@ -16,8 +16,19 @@ export default {
         '2xl': '1400px',
       },
     },
+
     extend: {
+      fontFamily: {
+        header: ['var(--header)'],
+        title: ['var(--title)'],
+        body: ['var(--body)'],
+      },
       colors: {
+        // my custom colors
+        myaccent: 'var(--myaccent)',
+        myprimary: 'var(--myprimary)',
+        mysecondary: 'var(--mysecondary)',
+        mymuted: 'var(--mymuted)',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
