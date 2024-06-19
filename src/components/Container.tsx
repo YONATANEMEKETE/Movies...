@@ -1,6 +1,6 @@
 type containerProp = {
   children: React.ReactNode;
-  className: string;
+  className?: string;
 };
 
 const Container = ({ children, className }: containerProp) => {
