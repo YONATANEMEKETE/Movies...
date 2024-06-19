@@ -3,7 +3,7 @@ import Navigation from './components/Navigation';
 
 function App() {
   return (
-    <div className="">
+    <div className="pb-24">
       <Navigation />
       <Hero />
     </div>

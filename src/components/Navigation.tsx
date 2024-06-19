@@ -12,7 +12,7 @@ const Navigation = () => {
   return (
     <div className="">
       <Container
-        className="fixed top-4 left-6 right-6 flex items-center justify-between
+        className="fixed top-8 min-[1100px]:top-16 left-6 min-[1100px]:left-12 right-6 min-[1100px]:right-12 flex items-center justify-between
        bg-white px-4 min-[1100px]:px-8 py-4 rounded-lg shadow-md"
       >
         <div className="text-2xl font-title font-bold text-myaccent">
