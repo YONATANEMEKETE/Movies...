@@ -89,3 +89,7 @@
     @apply bg-myprimary text-foreground;
   }
 }
+
+.slick-slider {
+  margin-inline: -30px;
+}
