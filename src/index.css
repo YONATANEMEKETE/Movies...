@@ -90,6 +90,7 @@
   }
 }
 
-.slick-slider {
-  margin-inline: -30px;
+.slider {
+  background-color: var(--myprimary);
+  width: max-content;
 }
