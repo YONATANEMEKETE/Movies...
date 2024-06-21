@@ -43,8 +43,9 @@ const VideosRecomendation = () => {
     queryFn: fetchBoxoffies,
   });
 
-  // const popVideos = popMovies?.Movies;
-  // const boxVideos = boxoffies?.Movies;
+  if (!popMovies || !boxoffies) {
+    console.log('loading...');
+  }
 
   return (
     <div className="mt-24 space-y-6">

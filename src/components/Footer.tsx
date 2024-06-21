@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" flex items-center gap-x-4 border w-max mx-auto mb-8">
+          <div className=" flex items-center gap-x-4 w-max mx-auto mb-8">
             <div className="text-2xl font-body font-semibold">
               <FaFacebookSquare />
             </div>
@@ -51,7 +51,7 @@ const Footer = () => {
 
         <div className="w-full border border-mymuted mb-6"></div>
 
-        <div className="border w-max mx-auto text-center flex flex-col lg:flex-row-reverse lg:w-full lg:px-12 justify-between items-center gap-y-6">
+        <div className=" w-max mx-auto text-center flex flex-col lg:flex-row-reverse lg:w-full lg:px-12 justify-between items-center gap-y-6">
           <div className="flex flex-col md:flex-row gap-x-4 items-center gap-y-2 underline font-header font-semibold">
             <p>Privacy Policy</p>
             <p>Cookie Setting</p>
