@@ -1,5 +1,6 @@
 export type VideoData = {
   movies: collection[];
+  message?: string;
 };
 
 export type collection = {

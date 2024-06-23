@@ -43,8 +43,13 @@ const VideosRecomendation = () => {
     queryFn: fetchBoxoffies,
   });
 
-  if (!popMovies || !boxoffies) {
-    console.log('loading...');
+  if (popMovies?.message) {
+    console.log('No data');
+    return (
+      <div className="mt-24 w-5/6 h-[30rem] mx-auto text-center pt-52 shadow-lg rounded-xl bg-white text-2xl font-body font-bold">
+        OOps No videos Available!!!
+      </div>
+    );
   }
 
   return (
